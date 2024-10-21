@@ -44,17 +44,18 @@ li {
 
 li a {
     display: block;
-    padding: 8px;
+    padding: 14px 16px;
     background-color: #dddddd;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
 }
 
 /* Change the link color on hover */
-a:hover {
-    background-color: greenyellow;
-    color: white;
-}
-
-a.active {
-    background-color: #0c7a52;
-    color: white;
-}
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
