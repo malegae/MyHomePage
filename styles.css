@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: orange;
   margin: 0;
   padding: 0;
 }
@@ -24,7 +24,6 @@ p {
 header {
     height: 50px;
     width: 100%;
-    background-color: #ccc;
 }
 
 ul {
@@ -45,16 +44,18 @@ a {
   text-align: center;
   font-size: large;
   text-transform: uppercase;
-  color: #fff;
+  background-color: #06cec4;
+  color: #000;
+  border-radius: 10px;;
 }
 
 /* Change the link color on hover */
 li a:hover:not(.active) {
-  background-color: skyblue;
+  background-color: rgb(206, 240, 13);
   color: #111;
 }
 
 li a.active {
-  background-color: lightgreen;
+  background-color: rgb(10, 245, 10);
   color: #111;
 }
