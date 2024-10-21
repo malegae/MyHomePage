@@ -21,13 +21,13 @@ p {
   text-align: center;
 }
 
-.navbar {
+header {
     height: 200px;
     width: 100%;
     background-color: darkgray;
 }
 
-ul {
+/* ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -35,33 +35,32 @@ ul {
   width: 100%;
   background-color: #fff;
   
-}
+} */
 
-li {
+/* li {
   width: 100px;
   height: 20px;
   display: inline;
   padding: 14px 16px;
   float: left;
   border: 1px solid #111;
-}
+} */
 
-li a {
+/* li a {
   display: block;
   padding: 14px 16px;
   text-decoration: none;
   text-align: center;
   color: #111;
-  
-}
+} */
 
 /* Change the link color on hover */
-li a:hover:not(.active) {
+/* li a:hover:not(.active) {
   background-color: orange;
   color: #111;
-}
+} */
 
-li a.active {
+/* li a.active {
   background-color: green;
   color: #111;
-}
+} */
