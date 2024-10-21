@@ -3,26 +3,26 @@ body {
 }
 
 h1 {
-    color: white;
+    color: black;
     text-align: center;
 }
 
 h2 {
     text-align: center;
-    color: red;
+    color: green;
 }
 
 p {
     font-family: verdana;
     font-size: 20px;
-    color: wheat;
+    color: black;
     text-align: center;
 }
 
 div.navbar {
     height: 200px;
     width: 100%;
-    background-color: #ccc;
+    /* background-color: #ccc; */
 }
 
 ul {
@@ -42,7 +42,7 @@ li {
 }
 
 li a {
-    /* display: block; */
+    display: block;
     padding: 14px 16px;
     background-color: darkgray;
     text-decoration: none;
@@ -55,6 +55,6 @@ li a:hover:not(.active) {
     background-color: #111;
   }
 
- /* li a.active {
+ li a.active {
     background-color: #29d413;
-  } */
+  }
