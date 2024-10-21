@@ -52,10 +52,11 @@ li a {
 }
 
 /* Change the link color on hover */
-li a:hover:not(.active) {
-    background-color: #111;
+a:hover {
+    background-color: blue;
+    color: #fff;
   }
 
- li a.active {
+a.active {
     background-color: #29d413;
   }
