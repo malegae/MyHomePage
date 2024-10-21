@@ -1,61 +1,60 @@
 body {
     background-color: lightblue;
-    margin: 0;
-    padding: 0;
 }
 
 h1 {
-    color: black;
+    color: white;
     text-align: center;
 }
 
 h2 {
     text-align: center;
-    color: black;
+    color: red;
 }
 
-h1 p {
+p {
     font-family: verdana;
     font-size: 20px;
-    color: black;
+    color: wheat;
     text-align: center;
 }
 
-.navbar {
+/* div.navbar {
     height: 200px;
     width: 100%;
     background-color: #ccc;
-}
+} */
 
-ul {
+div.ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     height: 200px;
     width: 100%;
-    /* background-color: lawngreen; */
+    background-color: #6ae915;
 }
 
-li {
+div.ul li {
     display: inline;
+    color: #000;
     padding: 8px 16px;
-    float: right;
+    float: left;
 }
 
-li a {
+div.ul li a {
+    display: block;
     padding: 14px 16px;
-    background-color: skyblue;
+    background-color: #dddddd;
     text-decoration: none;
     text-align: center;
-    color: #000;
+    color: #fff;
 }
 
 /* Change the link color on hover */
-a:hover {
-    background-color: blue;
-    color: #fff;
+div.ul li a:hover:not(.active) {
+    background-color: #111;
   }
-
- li a.active {
-    background-color: #29d413;
+  
+  div.ul li a.active {
+    background-color: #04AA6D;
   }
