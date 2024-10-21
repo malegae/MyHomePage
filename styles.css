@@ -43,7 +43,6 @@ li {
 }
 
 li a {
-    display: block;
     padding: 14px 16px;
     background-color: skyblue;
     text-decoration: none;
