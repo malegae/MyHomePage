@@ -42,7 +42,7 @@ li {
 }
 
 li a {
-    display: block;
+    /* display: block; */
     padding: 14px 16px;
     background-color: #dddddd;
     text-decoration: none;
@@ -54,7 +54,7 @@ li a {
 li a:hover:not(.active) {
     background-color: #111;
   }
-  
-  li a.active {
-    background-color: #04AA6D;
+
+  a.active {
+    background-color: #29d413;
   }
