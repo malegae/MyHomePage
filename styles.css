@@ -21,11 +21,11 @@ p {
   text-align: center;
 }
 
-div.navbar {
+/* div.navbar {
     height: 200px;
     width: 100%;
     background-color: darkgray;
-}
+} */
 
 ul {
   list-style-type: none;
@@ -36,10 +36,11 @@ ul {
   background-color: #fff;
 }
 
-li {width: 20px;
-  height: 15px;
+li {
+  /* width: 20px;
+  height: 15px; */
   display: inline;
-  padding: 5px 16px;
+  padding: 14px 16px;
   float: right;
 }
 
