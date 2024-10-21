@@ -44,7 +44,7 @@ li {
 li a {
     /* display: block; */
     padding: 14px 16px;
-    background-color: #dddddd;
+    background-color: darkgray;
     text-decoration: none;
     text-align: center;
     color: #fff;
@@ -55,6 +55,6 @@ li a:hover:not(.active) {
     background-color: #111;
   }
 
-  a.active {
+ li a.active {
     background-color: #29d413;
   }
