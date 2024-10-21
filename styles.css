@@ -31,17 +31,18 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  height: 200px;
+  height: 50px;
   width: 100%;
   background-color: #fff;
+  border: 1px solid #111;
 }
 
 li {
-  /* width: 20px;
-  height: 15px; */
+  width: 200px;
+  height: 40px;
   display: inline;
   padding: 14px 16px;
-  float: right;
+  float: left;
 }
 
 li a {
