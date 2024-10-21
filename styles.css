@@ -5,8 +5,9 @@ body {
 }
 
 h1 {
-    color: black;
+    color: blue;
     text-align: center;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -17,15 +18,14 @@ h2 {
 h1 p {
     font-family: verdana;
     font-size: 20px;
-    color: black;
-    text-align: center;
+    color: brown;
 }
 
-.navbar {
+/* .navbar {
     height: 200px;
     width: 100%;
     background-color: #ccc;
-}
+} */
 
 ul {
     list-style-type: none;
@@ -33,13 +33,13 @@ ul {
     padding: 0;
     height: 200px;
     width: 100%;
-    /* background-color: lawngreen; */
+    background-color: lawngreen;
 }
 
 li {
     display: inline;
     padding: 8px 16px;
-    float: right;
+    /* float: right; */
 }
 
 li a {
