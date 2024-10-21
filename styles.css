@@ -21,11 +21,11 @@ h1 p {
     color: brown;
 }
 
-/* .navbar {
+.navbar {
     height: 200px;
     width: 100%;
     background-color: #ccc;
-} */
+}
 
 ul {
     list-style-type: none;
@@ -39,7 +39,7 @@ ul {
 li {
     display: inline;
     padding: 8px 16px;
-    /* float: right; */
+    float: right;
 }
 
 li a {
